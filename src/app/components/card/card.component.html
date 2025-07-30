@@ -1,23 +1,25 @@
 <article class="card">
-    <header class="card-header">
-        <div class="card-header-left">
-            <img 
-                [src]="card.avatar" 
-                alt="{{ card.name }}" 
-                class="avatar" 
-            />
-            <div>
-                <h2 class="name">{{ card.name }}</h2>
-                <p class="title">{{ card.title }}</p>
-            </div>
-        </div>
+    <div class="card-image-wrapper">
+        <img 
+            [src]="card.avatar" 
+            alt="{{ card.name }}"
+            class="card-image" 
+        />
         <button 
             class="delete-btn" 
-            (click)="onDelete(card.id)"
+            (click)="onDelete(card.id)" 
             aria-label="Delete card"
             [disabled]="isRequestInProgress"
         >
             <i class="fa-solid fa-trash"></i>
         </button>
-    </header>
+    </div>
+
+    <div class="card-content">
+        <div class="card-header">
+            <h2 class="card-title">{{ card.name }}</h2>
+            <span class="card-date">{{ card.createdAt | date: 'MMM d, y' }}</span>
+        </div>
+        <p class="card-description">{{ card.content }}</p>
+    </div>
 </article>

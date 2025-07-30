@@ -1,20 +1,21 @@
-<section>
-    <header 
-        class="d-flex justify-between mb-40"
-    >
-        <h2 
-            class="card-list-title"
-        >
-            Cards
-        </h2>
+<header class="card-header">
+    <h1 class="card-title">Card Management</h1>
+    <div class="card-actions">
         <button 
-            class="card-button" 
-            type="button" 
+            class="card-icon-btn" 
+            (click)="refresh()"
+        >
+            ⟳
+        </button>
+        <button 
+            class="card-add-btn" 
             (click)="addCard()"
         >
-            + Add
+            + Add Item
         </button>
-    </header>
+    </div>
+</header>
+<main class="center-container">
     <section 
         *ngIf="cardList?.length; else noCards" 
         class="card-list"
@@ -33,4 +34,4 @@
             No cards available. Please add a card.
         </p>
     </ng-template>
-</section>
+</main>

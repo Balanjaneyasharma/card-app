@@ -1,11 +1,12 @@
 import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { DatePipe } from '@angular/common';
 
 import { Card } from '../../models/card.interface';
 
 @Component({
     selector: 'app-card',
     standalone: true,
-    imports: [],
+    imports: [DatePipe],
     templateUrl: './card.component.html',
     styleUrl: './card.component.scss'
 })

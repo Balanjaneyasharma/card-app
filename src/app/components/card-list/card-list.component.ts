@@ -26,6 +26,10 @@ export class CardListComponent implements OnInit, OnDestroy {
         this.getCards();
     }
 
+    refresh(): void {
+        this.getCards();
+    }
+
     getCards(): void {
         this.cardService.getCards()
         .pipe(

@@ -1,6 +1,7 @@
 export type  Card = {
     id: string;
     name: string;
-    title: string;
     avatar: string;
+    createdAt: Date | string;
+    content: string
 }
