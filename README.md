@@ -19,8 +19,8 @@ A simple Angular application that displays a list of cards fetched from a mock A
 
 - **Framework**: Angular 18
 - **Styling**: SCSS
-- **Animations**: Angular Animations / CSS Transitions
-- **Mock API**: JSON Server or local mock service
+- **Animations**: Angular Animations
+- **Mock API**: mockapi.io
 
 ---
 
@@ -39,5 +39,5 @@ npm i
 ```
 ## Start the Development Server
 
-Run `ng serve -0` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Run ```ng serve -o ``` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
