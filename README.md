@@ -24,6 +24,12 @@ A simple Angular application that displays a list of cards fetched from a mock A
 
 ---
 
+--- The Application will look like
+<img width="1916" height="928" alt="image" src="https://github.com/user-attachments/assets/1160e3ef-d836-4bf8-8a14-e83cc66eb3a7" />
+
+
+---
+
 ## 🚀 Getting Started
 
 ### 1. Clone the Repository
