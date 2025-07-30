@@ -1,27 +1,43 @@
-# CardApp
+# 🃏 CardApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.5.
+A simple Angular application that displays a list of cards fetched from a mock API. Users can add new cards or delete existing ones with smooth animations.
 
-## Development server
+---
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## 🔧 Features
 
-## Code scaffolding
+- Fetches data using mock API
+- Displays items as cards with a responsive layout
+- Delete individual cards (UI reflows with animation)
+- Add new cards dynamically
+- Smooth transitions and animations on card operations
+- Built using Angular 18 and SCSS
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+---
 
-## Build
+## 📦 Tech Stack
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- **Framework**: Angular 18
+- **Styling**: SCSS
+- **Animations**: Angular Animations / CSS Transitions
+- **Mock API**: JSON Server or local mock service
 
-## Running unit tests
+---
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 🚀 Getting Started
 
-## Running end-to-end tests
+### 1. Clone the Repository
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```bash
+git clone https://github.com/YOUR-USERNAME/card-app.git
+cd card-app
+```
 
-## Further help
+### 2.Install Dependencies
+```
+npm i
+```
+## Start the Development Server
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Run `ng serve -0` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
