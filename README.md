@@ -10,8 +10,21 @@ A sleek Angular application that displays a list of cards fetched from a mock AP
 - 🃏 Displays data as visually styled cards
 - ➕ Add new cards on-the-fly
 - ❌ Delete individual cards with animations
+- 👆 Delete icon appears on hover to reduce visual clutter
 - 🔄 UI reflows with smooth transitions
 - 🎨 Built using Angular 18 and SCSS
+
+---
+
+## 💡 Design Choice: Delete Icon on Hover
+
+To maintain a clean and minimal user interface, the delete icon is hidden by default and only appears when a user hovers over a card.
+
+**Why this approach?**
+- ✨ Keeps the card layout visually clean
+- 🛑 Prevents accidental deletions
+- 🧭 Keeps focus on the card content
+- 📱 Follows modern UX patterns seen in many web apps
 
 ---
 
