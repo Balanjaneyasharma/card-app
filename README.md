@@ -42,7 +42,8 @@ To maintain a clean and minimal user interface, the delete icon is hidden by def
 
 The application UI looks like this:
 
-<img width="1916" height="928" alt="Card App UI Preview" src="https://github.com/user-attachments/assets/1160e3ef-d836-4bf8-8a14-e83cc66eb3a7" />
+<img width="1898" height="920" alt="image" src="https://github.com/user-attachments/assets/d6064af2-2591-40e6-bab3-dd5a03f2af90" />
+
 
 ---
 
