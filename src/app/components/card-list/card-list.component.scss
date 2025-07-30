@@ -1,0 +1,24 @@
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.card-button {
+    color: black;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.no-cards {
+    text-align: center;
+}
+
+.card-list-title {
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: #1f1f1f;
+}

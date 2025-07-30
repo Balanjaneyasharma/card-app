@@ -1,0 +1,36 @@
+<section>
+    <header 
+        class="d-flex justify-between mb-40"
+    >
+        <h2 
+            class="card-list-title"
+        >
+            Cards
+        </h2>
+        <button 
+            class="card-button" 
+            type="button" 
+            (click)="addCard()"
+        >
+            + Add
+        </button>
+    </header>
+    <section 
+        *ngIf="cardList?.length; else noCards" 
+        class="card-list"
+    >
+        <app-card @cardListFadeSlide 
+            *ngFor="let card of cardList;" 
+            [card]="card"
+            (delete)="onDelete(card.id)"
+        ></app-card>
+    </section>
+
+    <ng-template #noCards>
+        <p 
+            class="no-cards"
+        >
+            No cards available. Please add a card.
+        </p>
+    </ng-template>
+</section>

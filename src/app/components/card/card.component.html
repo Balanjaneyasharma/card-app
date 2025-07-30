@@ -1,0 +1,23 @@
+<article class="card">
+    <header class="card-header">
+        <div class="card-header-left">
+            <img 
+                [src]="card.avatar" 
+                alt="{{ card.name }}" 
+                class="avatar" 
+            />
+            <div>
+                <h2 class="name">{{ card.name }}</h2>
+                <p class="title">{{ card.title }}</p>
+            </div>
+        </div>
+        <button 
+            class="delete-btn" 
+            (click)="onDelete(card.id)"
+            aria-label="Delete card"
+            [disabled]="isRequestInProgress"
+        >
+            <i class="fa-solid fa-trash"></i>
+        </button>
+    </header>
+</article>
