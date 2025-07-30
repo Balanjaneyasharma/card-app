@@ -33,7 +33,7 @@ To maintain a clean and minimal user interface, the delete icon is hidden by def
 - **Framework**: Angular 18
 - **Language**: TypeScript
 - **Styling**: SCSS
-- **Animations**: Angular Animations / CSS Transitions
+- **Animations**: Angular Animations
 - **Mock API**: [mockapi.io](https://mockapi.io/)
 
 ---
