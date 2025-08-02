@@ -52,7 +52,7 @@ The application UI looks like this:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/card-app.git
+git clone https://github.com/Balanjaneyasharma/card-app.git
 cd card-app
 ```
 
